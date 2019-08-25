@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic:100,300,400,500,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Livvic', sans-serif;
+  background-image: linear-gradient(-20deg, #6e45e2 0%, #88d3ce 100%);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  height: 10vh;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px 25px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-btn {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #005c69;
+  color: #f4f4f4;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-gap: 30px;
+  margin-top: 32px;
+}
+
+.recipe {
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
