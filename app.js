@@ -1,10 +1,8 @@
-const searchBar = document.querySelector('.search-bar')
-const searchBtn = document.querySelector('.search-btn')
 const form = document.querySelector('.form')
 const recipes = document.querySelector('.recipes')
 
-const APP_ID = '8cf9f0f9'
-const APP_KEY = 'c6d9f6243b81052483cb68327dbc8c83'
+const APP_ID = '********'  // Refer to Readme.md
+const APP_KEY = '************************' // Refer to Readme.md
 
 let inputValue = 'chicken'
 
@@ -55,7 +53,7 @@ const generateDOM = (recipe) => {
   recipes.appendChild(wrapper)
 }
 
-fetchData(inputValue) // Initially Load values on the Screen!!
+fetchData(inputValue) // Initially Load values to the Screen!!
 
 form.addEventListener('submit', (e) => {
   e.preventDefault()
