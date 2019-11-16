@@ -1,8 +1,8 @@
 const form = document.querySelector('.form')
 const recipes = document.querySelector('.recipes')
 
-const APP_ID = '********'  // Refer to Readme.md
-const APP_KEY = '************************' // Refer to Readme.md
+const APP_ID = '********'  // Refer Readme.md
+const APP_KEY = '************************' // Refer Readme.md
 
 let inputValue = 'chicken'
 
